@@ -132,6 +132,14 @@ class HydroPlatinum(UsbHidDriver):
             {'fan_count': 2, 'fan_leds': 0}),
         (0x1b1c, 0x0c37, 'Corsair iCUE H150i Elite RGB (experimental)',
             {'fan_count': 3, 'fan_leds': 0}),
+        (0x1b1c, 0x0c30, 'Corsair Hydro H60i Pro XT',
+            {'fan_count': 2, 'fan_leds': 0}),
+        (0x1b1c, 0x0c2d, 'Corsair Hydro H100i Pro XT',
+            {'fan_count': 2, 'fan_leds': 0}),
+        (0x1b1c, 0x0c2e, 'Corsair Hydro H115i Pro XT',
+            {'fan_count': 2, 'fan_leds': 0}),
+        (0x1b1c, 0x0c2f, 'Corsair Hydro H150i Pro XT',
+            {'fan_count': 3, 'fan_leds': 0}),
     ]
 
     @classmethod
